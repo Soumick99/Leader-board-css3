@@ -1,0 +1,66 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color:lightcyan ;
+}
+section{
+    background-color: white;
+    padding: 15px 25px 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+}
+h2{
+    margin-left: 20px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    
+}
+.blog-detail{
+margin-left: 20px;
+}
+.blog-info{
+    font-size: 20px;
+}
+.color{
+    color: #0000CD;
+}
+.blog-author{
+    color: #9f9f9f; 
+    font-size: 16px;
+}
+.blog-author a{
+    color:#562eff ;
+    text-decoration: none;
+    font-size: 16px;
+}
+
